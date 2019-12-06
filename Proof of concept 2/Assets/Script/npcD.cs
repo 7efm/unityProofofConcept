@@ -8,7 +8,7 @@ public class npcD : MonoBehaviour
     public GameObject dialogBox;
     public Text dialogText;
     public string dialog;
-    public bool dialogOn;
+    public bool playerInRange;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,18 +18,31 @@ public class npcD : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-    }
-    private void OnTriggerEnter2D(Collider2D other) {
-        if (other.CompareTag("Player")) {
-            Debug.Log("Player in range");
+        if (Input.GetKeyDown(KeyCode.Space) && playerInRange) {
+
+            if (dialogBox.activeInHierarchy) {
+                dialogBox.SetActive(false);
+            }
+            else
+            {
+                dialogBox.SetActive(true);
+                dialogText.text = dialog;
+            }
         }
     }
-    private void OnTriggerExit2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D collider) {
+        if (collider.CompareTag("Player")) {
+            Debug.Log("inrange");
+            playerInRange = true;
+        }
+    }
+    void OnTriggerExit2D(Collider2D collider)
     {
-        if (other.CompareTag("Player"))
+        if (collider.CompareTag("Player"))
         {
-            Debug.Log("Player not in range");
+            Debug.Log("notinrange");
+            playerInRange = false;
+            dialogBox.SetActive(false);
         }
     }
 }
