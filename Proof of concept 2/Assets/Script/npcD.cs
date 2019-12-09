@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class npcD : MonoBehaviour
 {
     public GameObject dialogBox;
+    public GameObject alertBox;
     public Text dialogText;
     public string dialog;
     public bool playerInRange;
@@ -22,6 +23,8 @@ public class npcD : MonoBehaviour
 
             if (dialogBox.activeInHierarchy) {
                 dialogBox.SetActive(false);
+                alertBox.SetActive(false);
+
             }
             else
             {
@@ -43,6 +46,7 @@ public class npcD : MonoBehaviour
             Debug.Log("notinrange");
             playerInRange = false;
             dialogBox.SetActive(false);
+
         }
     }
 }
