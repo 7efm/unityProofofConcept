@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[System.Serializable]
 public class Hints : MonoBehaviour
 {
     public GameObject hintBox;
@@ -12,7 +13,6 @@ public class Hints : MonoBehaviour
     void Start()
     {
         hintText.text = "Press space to talk to people when you are close";
-
     }
 
     // Update is called once per frame
@@ -25,10 +25,6 @@ public class Hints : MonoBehaviour
                 hintBox.SetActive(false);
 
             }
-            
-            }
         }
-
+    }
 }
-
-//timestamp 15:00
