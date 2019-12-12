@@ -8,13 +8,14 @@ public class npcD : MonoBehaviour
     public GameObject dialogBox;
     public GameObject alertBox;
     public GameObject portrait;
-    public Image image;
+    public Sprite image;
     public Text dialogText;
     public string dialog;
     public bool playerInRange;
     // Start is called before the first frame update
     void Start()
     {
+        portrait.GetComponent<Image>().sprite = image;
     }
 
     // Update is called once per frame

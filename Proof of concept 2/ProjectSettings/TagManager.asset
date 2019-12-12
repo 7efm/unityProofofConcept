@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - subway
+  - Building
   layers:
   - Default
   - TransparentFX
