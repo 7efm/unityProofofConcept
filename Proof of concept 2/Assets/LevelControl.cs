@@ -16,7 +16,7 @@ public class LevelControl : MonoBehaviour
     }
     public void EnterLevel()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(index);
     }
     // Update is called once per frame
 
