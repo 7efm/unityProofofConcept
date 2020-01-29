@@ -414,7 +414,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34152c046af5a5044ba1fbb80f0e8ecd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0.5
+  moveSpeed: 0.6
   rb: {fileID: 379031495}
 --- !u!50 &379031495
 Rigidbody2D:
@@ -493,7 +493,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379031489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.87, y: -1.979, z: -0.023}
+  m_LocalPosition: {x: -4.207, y: -1.105, z: -0.023}
   m_LocalScale: {x: 0.9237108, y: 0.9237108, z: 0.9237108}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1049,6 +1049,7 @@ GameObject:
   - component: {fileID: 1184152132}
   - component: {fileID: 1184152131}
   - component: {fileID: 1184152130}
+  - component: {fileID: 1184152134}
   m_Layer: 0
   m_Name: npcD
   m_TagString: Untagged
@@ -1115,7 +1116,7 @@ MonoBehaviour:
   dialogText: {fileID: 1007654066}
   dialog: Schild und Schwert der Partei! It means Shield and Sword of the Party. Isn't
     It a wonderful motto?
-  playerInRange: 1
+  playerInRange: 0
 --- !u!61 &1184152132
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1190,6 +1191,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1184152134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184152128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c047938be63194c469b9866fa375db91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Speed: 0.3
 --- !u!1 &1203868099
 GameObject:
   m_ObjectHideFlags: 0
