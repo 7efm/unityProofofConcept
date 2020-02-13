@@ -1,6 +1,5 @@
 Citizen;Hey what's up;0;R
+Player;Continue:scene,2
 Soldier;Nothing much man;0;L
-Citizen;Oh that's cool;1;R
 Player;Restart:line,0;Continue:line,4
 Soldier;This is a test;2;L
-Citizen;Test test test test;2;R

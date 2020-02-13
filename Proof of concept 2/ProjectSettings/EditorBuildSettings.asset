@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Episode 1.0.unity
     guid: 810dcc185a2daf44e9a712b13593c954
   - enabled: 1
+    path: Assets/E1S1.unity
+    guid: 55b1d31ee7af9274c9beb2ccdf3e3854
+  - enabled: 1
     path: Assets/Level1.unity
     guid: 4947a7e88ce208947a741b9d4ee543c6
   - enabled: 1
