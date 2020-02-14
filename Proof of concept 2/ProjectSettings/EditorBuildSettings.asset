@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Mapmenu.unity
     guid: 6043f085dba78a144842c1cd17e6c422
+  - enabled: 1
+    path: Assets/WallMiniGame1.unity
+    guid: 79d893b45be2ebe419a85f167f607b3c
   m_configObjects: {}

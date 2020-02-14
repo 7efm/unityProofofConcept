@@ -1,5 +1,6 @@
-Citizen;Hey what's up;0;R
-Player;Continue:scene,2
-Soldier;Nothing much man;0;L
-Player;Restart:line,0;Continue:line,4
-Soldier;This is a test;2;L
+Friend;Can you believe it??;0;R
+Plyr;Believe What?;0;L
+Friend;This is a test;0;L
+Friend;This is atest;0;L
+Friend;This is test;0;L
+Player;DiffScene:scene,WallMiniGame1;Continue:line,0
