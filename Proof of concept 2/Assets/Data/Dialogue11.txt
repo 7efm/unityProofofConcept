@@ -1,6 +1,8 @@
-Friend;Can you believe it??;0;R
-Plyr;Believe What?;0;L
-Friend;This is a test;0;L
-Friend;This is atest;0;L
-Friend;This is test;0;L
-Player;DiffScene:scene,WallMiniGame1;Continue:line,0
+Antonin Heidemann;Why are we even here??;0;R
+Plyr;What do you mean?;0;L
+Antonin Heidemann;Just yesterday night they started to build this wall and they didn't tell any of us about it. Just this morning they called us in to gaurd the wall.;0;R
+Plyr;Clearly they don't want anyone to cross into West Berlin right?;0;L
+Antonin Heidemann;But they gave us orders to stop people from crossing at all costs...;0;R
+Antonin Heidemann;Isn't that a bit harsh?;0;R
+Plyr;You know how things are. Let's just do our jobs, we're only supposed to be here for a few hours.;0;L
+Player;DiffScene:scene,WallMiniGame1;Restart Conversation:line,0
