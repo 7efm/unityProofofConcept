@@ -6,6 +6,7 @@ TagManager:
   tags:
   - subway
   - Building
+  - HealthDecrease
   layers:
   - Default
   - TransparentFX

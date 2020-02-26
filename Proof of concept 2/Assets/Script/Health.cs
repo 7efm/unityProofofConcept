@@ -11,11 +11,19 @@ public class Health : MonoBehaviour
     public Image[] hearts;
     public Sprite fullHeart;
     public Sprite emptyHeart;
+    void Start()
+    {
+        health = GlobalControl.Instance.health;
+        numHearts = GlobalControl.Instance.numHearts;
 
-    void Update() {
+    }
+    void Update()
+    {
+
         for (int i = 0; i < hearts.Length; i++)
         {
-            if (i < health) {
+            if (i < health)
+            {
                 hearts[i].sprite = fullHeart;
             }
             else
@@ -26,9 +34,28 @@ public class Health : MonoBehaviour
             {
                 hearts[i].enabled = true;
             }
-            else {
+            else
+            {
                 hearts[i].enabled = false;
             }
         }
+        
+    }
+    public void SavePlayer()
+    {
+        GlobalControl.Instance.health = health;
+        GlobalControl.Instance.numHearts = numHearts;
+
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.CompareTag("HealthDecrease"))
+        {
+            Debug.Log("hit");
+            health--;
+            SavePlayer();
+        }
+
     }
 }
