@@ -426,6 +426,11 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5526230367748946705, guid: 8536fafaaac137745b70fb37acb68c83,
+        type: 3}
+      propertyPath: option
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 760096114177561893, guid: 8536fafaaac137745b70fb37acb68c83,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -470,11 +475,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Colors.m_NormalColor.b
       value: 0.4515397
-      objectReference: {fileID: 0}
-    - target: {fileID: 5526230367748946705, guid: 8536fafaaac137745b70fb37acb68c83,
-        type: 3}
-      propertyPath: option
-      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 760096116008677127, guid: 8536fafaaac137745b70fb37acb68c83,
         type: 3}
@@ -1396,9 +1396,9 @@ MonoBehaviour:
   characterPoses:
   - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
   - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
-  - {fileID: 21300000, guid: 4f6db81c5dde8da4ca4810b6fa5fe40e, type: 3}
-  - {fileID: 21300000, guid: 4f6db81c5dde8da4ca4810b6fa5fe40e, type: 3}
-  - {fileID: 21300000, guid: 4f6db81c5dde8da4ca4810b6fa5fe40e, type: 3}
+  - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
+  - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
+  - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
 --- !u!1 &1094514731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1571,11 +1571,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPoses:
-  - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
-  - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
-  - {fileID: 21300000, guid: 4f6db81c5dde8da4ca4810b6fa5fe40e, type: 3}
-  - {fileID: 21300000, guid: 4f6db81c5dde8da4ca4810b6fa5fe40e, type: 3}
-  - {fileID: 21300000, guid: 4f6db81c5dde8da4ca4810b6fa5fe40e, type: 3}
+  - {fileID: 21300000, guid: ef7c542248bdef64c8eab74c499c7584, type: 3}
+  - {fileID: 21300000, guid: ef7c542248bdef64c8eab74c499c7584, type: 3}
+  - {fileID: 21300000, guid: ef7c542248bdef64c8eab74c499c7584, type: 3}
+  - {fileID: 21300000, guid: ef7c542248bdef64c8eab74c499c7584, type: 3}
+  - {fileID: 21300000, guid: ef7c542248bdef64c8eab74c499c7584, type: 3}
 --- !u!1 &1237309220
 GameObject:
   m_ObjectHideFlags: 0

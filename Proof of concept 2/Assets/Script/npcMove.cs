@@ -18,7 +18,7 @@ public class npcMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.left * Speed * Time.deltaTime);
+        transform.Translate(Vector2.up * Speed * Time.deltaTime);
         Debug.Log("Update is running");
         Debug.Log(Speed);
     }
