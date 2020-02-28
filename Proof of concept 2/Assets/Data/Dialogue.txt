@@ -1,3 +1,10 @@
-Antonin Heidemann;Why are we even here??;0;R
-Plyr;Why are we even here??;0;L
-Antonin Heidemann;Why are we even here??;0;R
+Antonin Heidemann;Please let me go, I need to see my family.;0;R
+Plyr;You know that the border is closed down right? We aren't allowed to let you cross.;0;L
+Antonin Heidemann;Please sir, I don't have much time...;0;R
+Player;Let him go:line,4;Arrest him:line,7
+Plyr;Fine, you can leave quietely.;0;L
+Player;You let him go:line,7,raiseFault
+Player;Continue your shift:line,0
+Plyr;Sorry sir, but I'm going to have to arrest you.;0;L
+Player;You arrested a civilian.:lowerFault
+Player;Continue your shift:line,0

@@ -5,14 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class ChoiceButton : MonoBehaviour
 {
-
+    public int  faults;
     public string option;
     public DialogueManager box;
 
     // Use this for initialization
     void Start()
     {
-
+         faults = GlobalControl.Instance.faults;
     }
 
     // Update is called once per frame
@@ -35,16 +35,29 @@ public class ChoiceButton : MonoBehaviour
     {
         string command = option.Split(',')[0];
         string commandModifier = option.Split(',')[1];
+        string command2 = option.Split(',')[2];
         box.playerTalking = false;
         if (command == "line")
         {
-            box.lineNum = int.Parse(commandModifier);
+            if (command2 == "raiseFault") {
+                GlobalControl.Instance.faults++;
+            }
+            else if (command2 == "lowerFault")
+            {
+                if (faults > 0)
+                {
+                    GlobalControl.Instance.faults--;
+                }
+                box.lineNum = int.Parse(commandModifier);
             box.ShowDialogue();
         }
         else if (command == "scene")
         {
             SceneManager.LoadScene(commandModifier);
             //Application.LoadLevel("Scene" + commandModifier);
+        }
+        
+        
         }
     }
 }

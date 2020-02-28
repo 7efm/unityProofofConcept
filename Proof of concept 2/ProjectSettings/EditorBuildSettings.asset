@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/WallMiniGame1.unity
     guid: 79d893b45be2ebe419a85f167f607b3c
+  - enabled: 1
+    path: Assets/DialogueCutscene.unity
+    guid: 577cd29a06db1b742932ce4a071f2cb2
   m_configObjects: {}

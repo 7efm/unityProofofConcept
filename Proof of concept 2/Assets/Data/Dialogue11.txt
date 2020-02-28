@@ -1,3 +1,12 @@
+;The day begins just like any other, people begin their regular routines and expect nothing from today.;0;R
+;Suddenly those near the Eastern Border are confronted with walls of barbed wire and bricks meant to imprison them from freedom.;0;R 
+;The East German government has caught their citizens leaving their oppressive Communist country to the West for better lives,;0;R
+;so the construction of a border is created overnight by Walter Ulbricht to prevent those who want to leave from doing so.;0;R 
+;Many East Berliners are shocked by their leader's decision to do such a thing while others believe it is necessary to prevent people from entering the clutches of the supposed "evils" of Capitalism.;0;R
+;You take the perspective of an East German Soldier who must follow the orders to build and guard the wall with your life and do anything to stop attempts to escape your country.;0;R 
+;Many of your fellow soldiers believe in the cause while others believe it is a violation of human rights.;0;R 
+;You have the option to report those who you believe are plotting actions against your country or join them in their fight for freedom.;0;R
+VideoOff;VideoOff;0;R
 Antonin Heidemann;Why are we even here??;0;R
 Plyr;What do you mean?;0;L
 Antonin Heidemann;Just yesterday night they started to build this wall and they didn't tell any of us about it. Just this morning they called us in to gaurd the wall.;0;R
@@ -5,4 +14,4 @@ Plyr;Clearly they don't want anyone to cross into West Berlin right?;0;L
 Antonin Heidemann;But they gave us orders to stop people from crossing at all costs...;0;R
 Antonin Heidemann;Isn't that a bit harsh?;0;R
 Plyr;You know how things are. Let's just do our jobs, we're only supposed to be here for a few hours.;0;L
-Player;DiffScene:scene,WallMiniGame1;Restart Conversation:line,0
+Player;Continue your shift:scene,WallMiniGame1;Restart Conversation:line,0

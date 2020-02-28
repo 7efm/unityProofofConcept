@@ -2,10 +2,12 @@
 using System.Collections;
 using UnityEngine.UI;
 using System.Collections.Generic;
+using UnityEngine.Video;
 
 public class DialogueManager : MonoBehaviour
 {
 
+    public VideoPlayer video;
     DialogueParser parser;
 
     public string dialogue, characterName;
@@ -74,7 +76,11 @@ public class DialogueManager : MonoBehaviour
 
     void ParseLine()
     {
-        if (parser.GetName(lineNum) != "Player")
+        if (parser.GetName(lineNum) == "VideoOff")
+        {
+            video.enabled = false;
+        }
+        else if (parser.GetName(lineNum) != "Player")
         {
             playerTalking = false;
             characterName = parser.GetName(lineNum);

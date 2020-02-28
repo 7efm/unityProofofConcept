@@ -5,6 +5,7 @@ using UnityEngine;
 public class GlobalControl : MonoBehaviour
 {
     public static GlobalControl Instance;
+    public int faults;
     public int health;
     public int numHearts;
     void Awake()
