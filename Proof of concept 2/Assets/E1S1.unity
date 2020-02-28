@@ -1660,8 +1660,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPoses:
-  - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
-  - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
+  - {fileID: 21300000, guid: 7e557b2cd7743f143bc9042c65553833, type: 3}
+  - {fileID: 21300000, guid: 7e557b2cd7743f143bc9042c65553833, type: 3}
   - {fileID: 21300000, guid: 4f6db81c5dde8da4ca4810b6fa5fe40e, type: 3}
   - {fileID: 21300000, guid: 4f6db81c5dde8da4ca4810b6fa5fe40e, type: 3}
   - {fileID: 21300000, guid: 4f6db81c5dde8da4ca4810b6fa5fe40e, type: 3}
@@ -6985,7 +6985,7 @@ Transform:
   m_GameObject: {fileID: 1430695712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 11.22, z: -0.1}
-  m_LocalScale: {x: 0.035, y: 0.09, z: 1}
+  m_LocalScale: {x: 0.0214375, y: 0.09, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9

@@ -35,19 +35,11 @@ public class ChoiceButton : MonoBehaviour
     {
         string command = option.Split(',')[0];
         string commandModifier = option.Split(',')[1];
-        string command2 = option.Split(',')[2];
+        //string command2 = option.Split(',')[2];
         box.playerTalking = false;
         if (command == "line")
         {
-            if (command2 == "raiseFault") {
-                GlobalControl.Instance.faults++;
-            }
-            else if (command2 == "lowerFault")
-            {
-                if (faults > 0)
-                {
-                    GlobalControl.Instance.faults--;
-                }
+            
                 box.lineNum = int.Parse(commandModifier);
             box.ShowDialogue();
         }
@@ -60,4 +52,3 @@ public class ChoiceButton : MonoBehaviour
         
         }
     }
-}
