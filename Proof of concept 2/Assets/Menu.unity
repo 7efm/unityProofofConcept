@@ -523,6 +523,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 520bbe87e32faef488ea765d574886a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  faults: 0
   health: 0
   numHearts: 0
 --- !u!4 &1054285348
@@ -597,9 +598,9 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: f71c64db2cd44954c95f0aa6cc2ca9fc, type: 3}
     m_FontSize: 30
-    m_FontStyle: 3
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 40
@@ -609,7 +610,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Load Demo
+  m_Text: LOAD DEMO
 --- !u!222 &1498042178
 CanvasRenderer:
   m_ObjectHideFlags: 0
