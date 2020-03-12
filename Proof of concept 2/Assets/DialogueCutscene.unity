@@ -1719,7 +1719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   characterPoses:
-  - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
+  - {fileID: 21300000, guid: 11686b457374f7746aaf204e4fa0d0c3, type: 3}
   - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
   - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}
   - {fileID: 21300000, guid: 14be1116a9b2e794bbc6848cf50b0fa9, type: 3}

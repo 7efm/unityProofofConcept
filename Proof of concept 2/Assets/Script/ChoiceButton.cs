@@ -18,7 +18,7 @@ public class ChoiceButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public void SetText(string newText)
@@ -39,8 +39,8 @@ public class ChoiceButton : MonoBehaviour
         box.playerTalking = false;
         if (command == "line")
         {
-            
-                box.lineNum = int.Parse(commandModifier);
+
+            box.lineNum = int.Parse(commandModifier);
             box.ShowDialogue();
         }
         else if (command == "scene")
@@ -48,7 +48,13 @@ public class ChoiceButton : MonoBehaviour
             SceneManager.LoadScene(commandModifier);
             //Application.LoadLevel("Scene" + commandModifier);
         }
-        
-        
+        if (command == "raiseFault") {
+            faults++;
+            GlobalControl.Instance.faults = faults;
+        }
+        else if (command == "lowerFault") {
+            }
+            faults--;
+            GlobalControl.Instance.faults = faults;
         }
     }
