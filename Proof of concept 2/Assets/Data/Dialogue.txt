@@ -4,10 +4,7 @@ Antonin Heidemann;Please sir, I don't have much time...;0;R
 Player;Let him go:line,4;Arrest him:line,7
 Plyr;Fine, you can leave quietely.;0;L
 Player;You let him go:,raiseFault
-Player;Continue your shift:line,0
+Player;Continue your shift:scene,WallMiniGame1
 Plyr;Sorry sir, but I'm going to have to arrest you.;0;L
 Player;You arrested a civilian.:,lowerFault
-Antonin Heidemann;Please sir, I don't have much time...;0;R
-Antonin Heidemann;Please sir, I don't have much time...;0;R
-Antonin Heidemann;Please sir, I don't have much time...;0;R
-Player;Continue your shift:line,0
+Player;Continue your shift:scene,WallMiniGame1
