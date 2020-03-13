@@ -15,8 +15,10 @@ public class SpriteChanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.anyKeyDown)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
+            Debug.Log("Text");
+
             spriteRenderer.sprite = newSprite;
         }
     }
